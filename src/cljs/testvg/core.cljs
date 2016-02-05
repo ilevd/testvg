@@ -21,7 +21,12 @@
 
 (defn about-page []
   [:div [:h2 "About testvg"]
-   [:div [:a {:href "/"} "go to the home page"]]])
+   [:div [:a {:href "/"} "go to the home page"]]
+   [:p "Hello! The test is very insteresting.
+    First three tasks are easy, and last two more complicated.
+    The last one I made simple. It can require more time to do smoothing, beautiful auto-resizable grid,
+    some interactivity etc, like the chart on Vigiblobe main page - I really like it."]
+   [:p "By Igor."]])
 
 
 (defn current-page []

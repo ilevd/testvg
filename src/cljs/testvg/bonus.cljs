@@ -52,5 +52,4 @@
                                  (start-timer! timers (:id timer)))
                     :style {:color (if (:is-run timer) "red" "green") }}
            (if (:is-run timer) "Stop" "Start")]
-          [:button {:on-click #(remove-timer! timers (:id timer))} "Remove"]
-          ])])))
+          [:button {:on-click #(remove-timer! timers (:id timer))} "Remove"]])])))
